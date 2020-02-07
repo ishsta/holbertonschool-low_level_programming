@@ -13,7 +13,7 @@ int main(void)
 	c = '0';
 	n = '\n';
 
-	for (i = 0; i <10; i++)
+	for (i = 0; i < 10; i++)
 	{
 		putchar(c);
 		c++;
