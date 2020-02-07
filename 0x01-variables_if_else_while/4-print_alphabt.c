@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <ctype.h>
 
 /**
  * main - Entry
@@ -8,16 +7,26 @@
 
 int main(void)
 {
-	int x = 'a';
+	int i;
+	char c, n;
 
-	while (x <= 'z')
+	c = 'a';
+	n = '/n';
+
+	for (i = 0; 1 < 26; i++)
 	{
-		if ((x != 'e') && (x != 'q'))
+		if (i == 4 || i == 16)
 		{
-			putchar(x);
-			x++;
+			c++;
+		}
+		else
+		{
+			putchar(c);
+			c++;
 		}
 	}
-	putchar('\n');
+
+	putchar(n);
+
 	return (0);
 }
