@@ -13,7 +13,7 @@ int main(void)
 	c = 'a';
 	n = '/n';
 
-	for (i = 0; 1 < 26; i++)
+	for (i = 0; i < 26; i++)
 	{
 		if (i == 4 || i == 16)
 		{
