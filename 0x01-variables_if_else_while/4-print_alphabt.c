@@ -2,8 +2,8 @@
 #include <ctype.h>
 
 /**
- * main - Entry point
- * Return: Always 0 (Success)
+ * main - Entry
+ * Return: Always 0 Success
  */
 
 int main(void)
@@ -13,11 +13,11 @@ int main(void)
 	while (x <= 'z')
 	{
 		if ((x != 'e') && (x != 'q'))
-			{
-				putchar(x);
-				x++;
-			}
+		{
+			putchar(x);
+			x++;
+		}
 	}
-		putchar('\n');
-		return (0);
+	putchar('\n');
+	return (0);
 }
