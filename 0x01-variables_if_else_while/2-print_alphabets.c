@@ -8,6 +8,13 @@
 
 int main(void)
 {
-	putchar("abcdefghijklmnopqrstuvwxyz");
+	int alpha = 'a';
+
+	while (alpha <= 'z')
+	{
+		putchar(alpha);
+		alpha++;
+	}
+	putchar('\n');
 	return (0);
 }
