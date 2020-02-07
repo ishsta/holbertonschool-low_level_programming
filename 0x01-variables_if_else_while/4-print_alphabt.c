@@ -11,7 +11,7 @@ int main(void)
 	char c, n;
 
 	c = 'a';
-	n = '/n';
+	n = '\n';
 
 	for (i = 0; i < 26; i++)
 	{
@@ -27,6 +27,5 @@ int main(void)
 	}
 
 	putchar(n);
-
 	return (0);
 }
