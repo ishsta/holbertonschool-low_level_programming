@@ -1,20 +1,20 @@
 #include <stdio.h>
-#include <holberton.h>
+#include "holberton.h"
 
 /**
- * main - Entry
+ * main - Print Holberton
  *
- * Return: Always 0
+ * Return: Success
  */
 
 int main(void)
 {
-	char c[] = "Holberton";
+	char holby[] = "Holberton";
 	int i;
 
 	for (i = 0; i < 9; i++)
 	{
-		_putchar(c[i]);
+		_putchar(holby[i]);
 	}
 	_putchar('\n');
 	return (0);
