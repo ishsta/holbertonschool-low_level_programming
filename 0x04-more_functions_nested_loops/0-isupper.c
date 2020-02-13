@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <holberton.h>
+#include "holberton.h"
 
 /**
  * _isupper - checks for uppercase character
@@ -8,7 +8,7 @@
  * Return: (int)
  */
 
-int _isupper(int c);
+int _isupper(int c)
 {
 	if (c >= 'A' && c <== 'Z')
 		return (1);
