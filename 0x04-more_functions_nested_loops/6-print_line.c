@@ -2,32 +2,17 @@
 #include "holberton.h"
 
 /**
- * more_numbers - Prints 0 to 14 ten times
+ * print_line - Prints a line to the terminal
+ * @n: Number of times to display the underscore
  */
 
-void more_numbers(void)
+void print_line(int n)
 {
-	int i, j;
-	char z = '0';
-	char y = '0';
+	int i;
 
-	for (j = 0; j < 10; j++)
+	for (i = 0; i < n; i++)
 	{
-		z = '0';
-		y = '0';
-		for (i = 0; i <= 14; i++, z++)
-		{
-			if (i > 9)
-			{
-				z = '1';
-			}
-			_putchar(z);
-			if (i > 9)
-			{
-				_putchar(y);
-				y++;
-			}
-		}
-		_putchar('\n');
+		_putchar('_');
 	}
+	_putchar('\n');
 }
